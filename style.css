@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-color: rgb(128, 128, 128);
+    /* background-color: #000; */
+}
+
+.backgroundText{
+    position: absolute;
+    right: 650px;
+    bottom: 450px;
+    opacity:25%;
+    font-size: 5.5rem;
+    font-family: cursive;
+    color: rgb(24, 238, 217);
+}
+
+.input{
+    position: absolute;
+    right: 580px;
+    bottom: 400px;
+    /* width: 350px; */
+    outline: none;
+    border: yellow solid 4px;
+    color: turquoise;
+    resize: none;
+    font-size: 1rem;
+}
+
+.addButton{
+    position: absolute;
+    right: 582px;
+    bottom: 403px;
+    background-color: turquoise;
+    width: 48px;
+    border-radius: 10% 10%;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 80%;
+}
+
+.addButton:hover{
+    padding: 4px;
+    transition: 0.3s;
+}
+
+.trial{
+    position: absolute;
+    left: 630px;
+    top: 320px;
+    color:turquoise;
+    cursor: pointer;
+}
+
+
+.to{
+    text-decoration: line-through;
+    opacity: 40%;
+    color: yellow;
+}
+
+@media(max-width:376px){
+    .backgroundText{
+        right: 70px;
+        bottom: 540px;
+    }
+
+    .input{
+        right: 30px;
+        bottom: 500px;
+    }
+
+    .addButton{
+        right: 30px;
+        bottom: 505px;
+    }
+
+    .trial{
+        left: 30px;
+        bottom: 570px;
+    }
+}
